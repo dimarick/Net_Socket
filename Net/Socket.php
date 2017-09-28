@@ -407,7 +407,7 @@ class Net_Socket
     {
         $this->ensureConnected();
 
-        if (null === $blocksize && !OS_WINDOWS) {
+        if (null === $blocksize) {
             $written = @fwrite($this->fp, $data);
 
             // Check for timeout or lost connection
