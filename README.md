@@ -12,32 +12,8 @@ byte-order ip addresses).
 
 
 ## Installation
-For a PEAR installation that downloads from the PEAR channel:
-
-`$ pear install pear/net_socket`
-
-For a PEAR installation from a previously downloaded tarball:
-
-`$ pear install Net_Socket-*.tgz`
-
-For a PEAR installation from a code clone:
-
-`$ pear install package.xml`
-
-For a local composer installation:
-
-`$ composer install`
-
-To add as a dependency to your composer-managed application:
 
 `$composer require pear/net_socket`
-
-
-## Tests
-Run  the tests from a local composer installation:
-
-`$ ./vendor/bin/phpunit`
-
 
 ## License
 BSD-2 license
